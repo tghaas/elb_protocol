@@ -1,0 +1,37 @@
+{
+  "name": "elb_protocol",
+  "version": "0.0.1",
+  "description": "Processes the logs",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "build-watch": "./node_modules/.bin/tsc -W"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "*",
+    "all": "0.0.0",
+    "bignumber.js": "*",
+    "bluebird": "*",
+    "elbv2-log-parser": "git@github.com:tghaas/node-elbv2-log-parser.git",
+    "js-yaml": "*",
+    "source-map-support": "*",
+    "typescript": "2.7.2",
+    "recursive-readdir": "*"
+  },
+  "devDependencies": {
+    "@types/bluebird": "3.5.20",
+    "@types/chai": "*",
+    "@types/js-yaml": "*",
+    "@types/mocha": "*",
+    "@types/aws-lambda": "*",
+    "@types/orchestrator": "*",
+    "@types/q": "*",
+    "@types/sinon": "*",
+    "@types/sinon-chai": "*",
+    "@types/ssh2": "*",
+    "@types/lodash": "*",
+    "@types/recursive-readdir": "*"
+  }
+}
